@@ -36,18 +36,20 @@ body { font-family: 'paybooc-Medium'; }
 
 .mo_menu_bt { display: none; }
 .mo_menu_wrap { display: none; }
+.mo_menu_bg { display: none; }
+.mo_side { display: none; }
 
 /* 메인페이지 */
-.tit_banner { width: 100%; height: 400px; background: url(/image/main_banner.png) center center no-repeat; background-size: cover; overflow: hidden; }
+.tit_banner { width: 100%; height: 400px; background: url(../image/main_banner.png) center center no-repeat; background-size: cover; overflow: hidden; }
 .tit_h { width: fit-content; margin: auto; margin-top: 196px; font-size: 40px; font-weight: bold; color: #fff; }
 .tit_p { width: fit-content; margin: auto; margin-top: 13px; font-size: 20px; font-weight: 500; color: #b5b5b5; }
 
-.id_banner { width: 100%; height: 525px; display: flex; justify-content: center; background: url(/image/id_banner.png) center center no-repeat; background-size: cover; overflow: hidden; }
+.id_banner { width: 100%; height: 525px; display: flex; justify-content: center; background: url(../image/id_banner.png) center center no-repeat; background-size: cover; overflow: hidden; }
 .banner_con { width: 500px; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
 .page_h { font-size: 32px; color: #333; }
 .page_p { font-size: 20px; color: #818181; margin-top: 18px; }
 
-.app_banner { width: 100%; height: 460px; display: flex; justify-content: center; background: url(/image/app_banner.png) center center no-repeat; background-size: cover; overflow: hidden; }
+.app_banner { width: 100%; height: 460px; display: flex; justify-content: center; background: url(../image/app_banner.png) center center no-repeat; background-size: cover; overflow: hidden; }
 .page_h.app { color: #285f74; }
 .page_p.app { color: #376b7e; }
 .qr { margin-top: 41px; }
@@ -71,8 +73,8 @@ body { font-family: 'paybooc-Medium'; }
 .swiper-wrapper { width: 980px; }
 .swiper-slide.notice { max-width: 300px; width: 100%; height: 280px; display: flex; flex-direction: column; justify-content: space-between; padding: 37px 22px 30px 37px; box-sizing: border-box; background: #fff; filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.12)); border-radius: 10px; transition: 0.2s; cursor: pointer; }
 .swiper-button-next::after, .swiper-button-prev::after { display: none; }
-.swiper-button-next.notice { width: 50px; height: 50px; background: url(/image/swiper_right.png) center no-repeat; background-size: 100% auto; }
-.swiper-button-prev.notice { width: 50px; height: 50px; background: url(/image/swiper_left.png) center no-repeat; background-size: 100% auto; }
+.swiper-button-next.notice { width: 50px; height: 50px; background: url(../image/swiper_right.png) center no-repeat; background-size: 100% auto; }
+.swiper-button-prev.notice { width: 50px; height: 50px; background: url(../image/swiper_left.png) center no-repeat; background-size: 100% auto; }
 .swiper-pagination { bottom: 100px !important; }
 .swiper-pagination-bullet { width: 40px !important; height: 8px !important; background-color: #fff !important; border-radius: 0 !important; opacity: 1 !important; }
 .swiper-pagination-bullet-active { width: 40px !important; height: 8px !important; background-color: #097988 !important; }
@@ -109,13 +111,13 @@ body { font-family: 'paybooc-Medium'; }
 .tit_h { font-size: 20px; margin-top: 150px; text-align: center; }
 .tit_p { font-size: 14px; text-align: center; word-break: keep-all; }
 
-.id_banner { height: 400px; display: flex; flex-direction: column-reverse; justify-content: space-evenly; background: url(/image/id_banner.png) 70% no-repeat; background-size: cover; overflow: hidden; }
+.id_banner { height: 400px; display: flex; flex-direction: column-reverse; justify-content: space-evenly; background: url(../image/id_banner.png) 70% no-repeat; background-size: cover; overflow: hidden; }
 .banner_con { width: 100%; height: fit-content; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
 .id_img { height: 100px; }
 .page_h { font-size: 22px; color: #333; }
 .page_p { font-size: 18px; color: #818181; margin-top: 10px; }
 
-.app_banner { height: 400px; display: flex; flex-direction: column; justify-content: center; background: url(/image/app_banner.png) 30% no-repeat; background-size: cover; overflow: hidden; }
+.app_banner { height: 400px; display: flex; flex-direction: column; justify-content: center; background: url(../image/app_banner.png) 30% no-repeat; background-size: cover; overflow: hidden; }
 .page_h.app { color: #285f74; }
 .page_p.app { color: #376b7e; }
 .qr { margin-top: 41px; }
